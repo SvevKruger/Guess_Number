@@ -7,10 +7,9 @@ def guess_number():
         guess_number = int(input("Insert a number between 1 and 20 "))
         if guess_number > random_number:
             print("Your number is too high")
-        elif guess_number < random_number:
+        else:
             print("Your number is too low")
     if guess_number == random_number:
         print(f"Congrats, that's right. The correct number is {guess_number}")
 
 guess_number()
-
