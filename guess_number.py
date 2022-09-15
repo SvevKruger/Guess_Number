@@ -9,7 +9,7 @@ def guess_number():
             print("Your number is too high")
         else:
             print("Your number is too low")
-    if guess_number == random_number:
-        print(f"Congrats, that's right. The correct number is {guess_number}")
+    
+    print(f"Congrats, that's right. The correct number is {guess_number}")
 
 guess_number()
